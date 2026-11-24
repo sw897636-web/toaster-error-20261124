@@ -10,7 +10,7 @@
 // a stuck crumb as a pet.
 import { mkdirSync, writeFileSync } from "node:fs";
 
-const MESSAGE = "ERROR E09: The same crumb since Tuesday. I have named him Greg.";
+const MESSAGE = "ERROR E09: CRUMB TRAY FULL. Do not empty. One of those crumbs is Greg.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
